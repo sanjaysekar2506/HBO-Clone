@@ -23,6 +23,7 @@
     font-family: Street2, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    
 }
 
 .navbar {
@@ -81,7 +82,7 @@
 
 .nav-links li {
     margin: 0 15px;
-    font-size: 12px;
+    font-size: 11px;
     color: grey;
     cursor: pointer;
     text-transform: uppercase;
@@ -269,8 +270,14 @@ h2{
   position:relative;
   /* left: 60px; */
   overflow-x: scroll;
-  /* overflow: hidden; */
+  
 
+}
+.lateststream::-webkit-scrollbar{
+  opacity: 0;
+}
+.commingsoon::-webkit-scrollbar{
+  opacity: 0;
 }
 .lateststream img{
   
@@ -623,6 +630,7 @@ left: 5px;
 .first-cont{
   position: relative;
   top: 15px;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -673,7 +681,7 @@ button.signin {
 }
 .nav-links li {
  
-  font-size: 11px;
+  font-size: 9px;
   
 }
 button.signbtn {
@@ -691,7 +699,7 @@ button.signbtn {
     font-size: 12px;
 }
 .nav-links li {
-  margin: 0px 12px;
+  margin: 0px 10px;
  
 }
 button.signbtn {
@@ -716,7 +724,7 @@ button.signbtn {
 }
 button.signbtn {
 
-  font-size: 13px;
+  font-size: 12px;
  
 }
 
@@ -923,7 +931,7 @@ button.signbtn {
 }
 
 .imgpara2{
-  width: 50%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -1018,7 +1026,7 @@ h1 {
 }
 @media (max-width:600px){
   .photos img {
-    height: 260px;
+    height: 240px;
 }
 .ccard {
   min-width: 165px;
@@ -1029,6 +1037,10 @@ h1 {
 .hbofooter ul li {
   padding: 10px;
 }
+.maxfooter img {
+  filter: brightness(0%) invert(1);
+  width: 50%;
+}
 }
 @media (max-width:550px){
   .photos img {
@@ -1038,6 +1050,10 @@ h1 {
 @media (max-width:500px){
   .photos img {
     height: 180px;
+}
+.maxfooter img {
+  filter: brightness(0%) invert(1);
+  width: 50%;
 }
 }
 @media (max-width:450px){
@@ -1052,13 +1068,17 @@ h1 {
 }
 @media (max-width:550px){
   .imgpara2 h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .imgpara2 .dragonpara p {
    
-    font-size: 18px;
-    width: 480.9px;
+    font-size: 15px;
+    width: 100%;
     
+}
+.maxfooter img {
+  filter: brightness(0%) invert(1);
+  width: 50%;
 }
 }
 @media (max-width:500px){
@@ -1067,5 +1087,81 @@ h1 {
     justify-content: space-around;
     
 }
+@media (max-width:450px){
+  .imgpara2 .dragonpara p {
+    font-size: 16px;
+    width: 435.9px;
 }
+}
+.maxfooter img {
+  filter: brightness(0%) invert(1);
+  width: 50%;
+}
+}
+@media (max-width:400px) {
+  .imgpara2 .dragonpara p {
+    font-size: 16px; 
+    width: 100%;
+}  
+.imgpara2 h1 {
+  font-size: 28px;
+}
+button.signbtn {
+ 
+  margin-left: -16px;
+}
+.maxfooter img {
+  filter: brightness(0%) invert(1);
+  width: 50%;
+}
+}
+@media (max-width:350px) {
+  .imgpara2 h1 {
+    font-size: 28px;
+}
+button.signbtn {
+  margin-left: -60px;
+}
+.lcard img {
+  width: 70%;
+  height: 35%;
+}
+.maxfooter img {
+  filter: brightness(0%) invert(1);
+  width: 50%;
+}
+}
+@media (max-width:320px) {
+  .photos {
+    margin-left: -72px;
+}
+.photos {
+  gap: 12px;
+  
+}
+.lcard {
+  width: 24%;
+  min-width: 220px;
+}
+.imgpara2 h1 {
+  font-size: 25px;
+}
+.img .hbo {
+ 
+  margin-left: -14px;
+}
+button.signbtn {
+  
+  width: 170px;
+  
+}
+.maxfooter h3 {
+  font-size: 20px;
+}
+.maxfooter img {
+  filter: brightness(0%) invert(1);
+  width: 50%;
+}
+}
+
 
