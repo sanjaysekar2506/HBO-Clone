@@ -81,8 +81,8 @@
 }
 
 .nav-links li {
-    margin: 0 15px;
-    font-size: 11px;
+    margin: 0 10px;
+    font-size: 13px;
     color: grey;
     cursor: pointer;
     text-transform: uppercase;
@@ -1161,6 +1161,9 @@ button.signbtn {
 .maxfooter img {
   filter: brightness(0%) invert(1);
   width: 50%;
+}
+h2 {
+  font-size: 28px;
 }
 }
 
