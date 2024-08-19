@@ -246,24 +246,25 @@ h2{
   font-family: sans-serif;
 }
 .card1 img{
-  height: 200px;
+  height: 150px;
   width: 100%;
 
 }
 .card2 img{
-  height: 200px;
+  height: 150px;
   width: 100%;
 }
 .card3 img{
-  height: 200px;
+  height: 150px;
   width: 100%;
 }
 .card4 img{
-  height: 200px;
+  height: 150px;
   width: 100%;
 }
 .lateststream{
-  width: 100%;
+  width: 90%;
+  margin: auto;
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: space-around;
@@ -303,8 +304,9 @@ h2{
 
 }
 .lcard{
-  width: 24%;
-  min-width: 290px;
+    width: 20%;
+    min-width: 260px;
+}
 
 }
 .lcard img{
